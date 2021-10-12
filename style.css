@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url(font_family/Comfortaa_Regular.ttf);
+}
+*, body {
+  font-family: Comfortaa-Regular;
+}
+
+.buttons-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 50px;
+  list-style: none;
+  width: 100%;
+  height: 200px;
+}
+.buttons-nav #dad-jokes {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #69c;
+}
+.buttons-nav #search-jokes {
+  text-align: center;
+  border-radius: 10px;
+}
+.buttons-nav #page {
+  text-align: center;
+  border-radius: 10px;
+}
+
+#joke-list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  min-height: 100px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 80%;
+  padding: 25px;
+  gap: 25px;
+  list-style-type: circle;
+}
+#joke-list li {
+  margin-left: 10px;
+}
+
+.joke-list-border {
+  box-shadow: inset 5px 5px 5px rgba(102, 153, 204, 0.479);
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
